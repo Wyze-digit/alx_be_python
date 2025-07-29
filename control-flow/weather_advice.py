@@ -2,11 +2,6 @@
 # Request for weather condition from user and take input
 weather = str(input("What's the weather like today? (sunny/rainy/cold):."), )
 
-# Response to user
-recommend_sunny = 'Wear a t-shirt and sunglasses.'
-recommend_rainy = 'Dont forget your umbrella and a raincoat'
-recommend_cold = 'Make sure to wear a warm coat and a Scarf'
-
 # check the input response and provide clothing recommendations
 if weather == 'sunny':
       print(f"Wear a t-shirt and sunglasses")
