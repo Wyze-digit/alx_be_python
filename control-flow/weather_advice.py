@@ -1,6 +1,6 @@
 # Weather Advice program
 # Request for weather condition from user and take input
-weather = str(input('What is the weather like? (sunny/rainy/cold):.'), )
+weather = str(input("What's the weather like today? (sunny/rainy/cold):."), )
 
 # Response to user
 recommend_sunny = 'Wear a t-shirt and sunglasses.'
