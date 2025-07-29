@@ -9,7 +9,7 @@ recommend_cold = 'Make sure to wear a warm coat and a Scarf'
 
 # check the input response and provide clothing recommendations
 if weather == 'sunny':
-      print(f"Wear a t-shirt and sunglasses.")
+      print(f"Wear a t-shirt and sunglasses")
 elif weather == 'rainy':
       print(f"Dont forget your umbrella and a raincoat")
 elif weather == 'cold':
