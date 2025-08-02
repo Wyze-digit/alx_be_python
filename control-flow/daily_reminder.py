@@ -5,8 +5,8 @@
 
 # Get task input from user
 task = input("Enter your task: ")
+time_bound = input("Is it time-bound? (yes/no): ")
 priority = input("Priority (high/medium/low): ").lower()
-time_bound = input("Is it time-bound? (yes or no): ").lower()
 
 # Initialize base reminder message
 reminder = f"Task: {task}\nPriority: {priority.capitalize()}\nReminder: '{task}' "
@@ -38,7 +38,7 @@ match priority:
             reminder += "has unclear time-bound status."
 
 #    case _:
-#        reminder = f"Task: {task}\nPriority: Unknown\nStatus: Task priority is unrecognized. Please enter high, medium, or low."
+#        reminder = f"Task: {Task}\nPriority: Unknown\nStatus: Task priority is unrecognized. Please enter high, medium, or low."
 
 # Output the final structured reminder
 print("")
