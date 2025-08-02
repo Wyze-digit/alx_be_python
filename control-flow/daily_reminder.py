@@ -41,5 +41,5 @@ match priority:
 #        reminder = f"Task: {Task}\nPriority: Unknown\nStatus: Task priority is unrecognized. Please enter high, medium, or low."
 
 # Output the final structured reminder
-print("")
+print(f"Reminder: {reminder}")
 print(reminder)
