@@ -3,6 +3,7 @@
 
 # import the date-time library from python standard library functions
 import datetime
+from datetime import datetime
 
 # Function to display the current date and time 
 def display_current_datetime():
