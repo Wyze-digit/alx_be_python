@@ -19,7 +19,7 @@ def main():
 
         # Option 1: Add an item to the shopping list
         if choice == '1':
-            item = input("Enter item to add: ").strip()
+            item = input("Enter the item to add: ").strip()
 
             # Check for empty input
             if not item:
