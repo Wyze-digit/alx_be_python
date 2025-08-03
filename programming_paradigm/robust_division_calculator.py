@@ -6,7 +6,7 @@ def safe_divide(numerator, denominator):
         num = float(numerator)
         den = float(denominator)
 
-        if num <= 0 or den <= 0:
+        if num < 0 or den < 0:
             return "Error: Only positive numbers are allowed."
 
         result = num / den
