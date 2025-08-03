@@ -28,7 +28,7 @@ def main():
         return
 
     # Prompt for temperature unit
-    unit = input("Is this Temperature in Celsius or Fahrenheit? (C/F): ").strip().lower()
+    unit = input("Is this temperature in Celsius or Fahrenheit? (C/F):").strip().lower()
 
     # Process input and perform conversion
     if unit == 'c':
