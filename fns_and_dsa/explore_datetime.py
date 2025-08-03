@@ -26,7 +26,7 @@ def main():
 
     # Step 2: Get number of days from user input
     try:
-        number_of_days = int(input("Enter number of days to add: "))
+        number_of_days = int(input("Enter the number of days to add to the current date: "))
         # Step 3: Calculate and display the future date
         calculate_future_date(current_date, number_of_days)
     except ValueError:
