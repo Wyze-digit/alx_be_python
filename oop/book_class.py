@@ -9,7 +9,7 @@ class Book:
         self.title = title        # Title of the book
         self.author = author      # Author of the book
         self.year = year          # Publication year
-        print(f"Book created: {self.title}")
+#        print(f"Book created: {self.title}")
 
     # Destructor: called automatically when an object is deleted
     def __del__(self):
