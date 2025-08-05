@@ -21,7 +21,7 @@ class EBook(Book):
         self.file_size = file_size       # File size in MB
 
     def __str__(self):
-        return f"EBook: {self.title} by {self.author}, File Size: {self.file_size}MB"
+        return f"EBook: {self.title} by {self.author}, File Size: {self.file_size}KB"
 
 
 # Derived class representing a PrintBook
@@ -31,7 +31,7 @@ class PrintBook(Book):
         self.page_count = page_count     # Number of pages
 
     def __str__(self):
-        return f"PrintBook: {self.title} by {self.author}, Pages: {self.page_count}"
+        return f"PrintBook: {self.title} by {self.author}, Page Count: {self.page_count}"
 
 
 # Library class that manages a collection of books (composition)
