@@ -26,7 +26,8 @@ class Calculator:
         - Here, we print the class attribute before performing multiplication.
         """
         # Accessing the class attribute via cls
-        print(cls.calculation_type)
+#        print(cls.calculation_type) 
+        print(f"Calculation type: {cls.calculation_type}")
         return a * b
 
 
