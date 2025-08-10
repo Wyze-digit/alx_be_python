@@ -54,3 +54,23 @@ if __name__ == "__main__":
     main()  
 
 
+# ANOTHER PORTION OF CODES ADDED
+#
+from polymorphism_demo import Shape, Rectangle, Circle
+
+def main():
+    # Create a list of shape objects
+    shapes = [
+        Rectangle(10, 5),  # Rectangle with length 10 and width 5
+        Circle(7)          # Circle with radius 7
+    ]
+
+    # Loop through the list and print each shape's area
+    for shape in shapes:
+        # Polymorphism in action: same method call works for different shape types
+        print(f"The area of the {shape.__class__.__name__} is: {shape.area()}")
+
+if __name__ == "__main__":
+    main()
+
+
