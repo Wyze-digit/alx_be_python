@@ -55,7 +55,8 @@ if __name__ == "__main__":
 
 
 # ANOTHER PORTION OF CODES ADDED
-#
+# understanding of polymorphism in Python by creating a set of classes 
+# that demonstrate method overriding and polymorphic behavior.
 from polymorphism_demo import Shape, Rectangle, Circle
 
 def main():
