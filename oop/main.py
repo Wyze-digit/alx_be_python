@@ -75,3 +75,22 @@ if __name__ == "__main__":
     main()
 
 
+#
+#
+
+# main.py
+
+from class_static_methods_demo import Calculator
+
+def main():
+    # Using the static method: add two numbers
+    sum_result = Calculator.add(10, 5)  # No need to pass 'self' or 'cls'
+    print(f"The sum is: {sum_result}")
+
+    # Using the class method: multiply two numbers
+    product_result = Calculator.multiply(10, 5)  # Automatically passes 'cls'
+    print(f"The product is: {product_result}")
+
+if __name__ == "__main__":
+    main()
+
